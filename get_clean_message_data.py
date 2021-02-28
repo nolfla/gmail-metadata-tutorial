@@ -79,7 +79,8 @@ def extract_data(message: dict):
                 new_message['from_name'] = name
             except:
                 new_message['from'] = val
-    if new_message.get('from') and new_message.get('subject') and new_message.get('to') and new_message.get('date') and new_message.get('id') and new_message.get('history_id'):
+    if new_message.get('from') and new_message.get('subject') and new_message.get('to') and new_message.get(
+            'date') and new_message.get('id') and new_message.get('history_id'):
         return new_message
     else:
         return None

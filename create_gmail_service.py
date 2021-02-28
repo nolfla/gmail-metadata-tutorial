@@ -9,12 +9,12 @@ def create_service():
 
     # add your own data to the file
     json_credential_dict = {"token_expiry": None, "user_agent": None, "invalid": False,
-                                "client_id": "YOUR_CLIENT_ID",
-                                "token_uri": "https://oauth2.googleapis.com/token",
-                                "client_secret": "YOUR_CLIENT_SECRET", "_module": "oauth2client.client",
-                                "_class": "OAuth2Credentials", "scopes": SCOPES,
-                                'refresh_token': "REFRESH_TOKEM",
-                                'access_token': "ACCESS_TOKEN"}
+                            "client_id": "679724111162-85ipbtco627tki732pq6sok8f486l7qn.apps.googleusercontent.com",
+                            "token_uri": "https://oauth2.googleapis.com/token",
+                            "client_secret": "XbbnduPXJNf265-F5uiY88a0", "_module": "oauth2client.client",
+                            "_class": "OAuth2Credentials", "scopes": SCOPES,
+                            'refresh_token': "REFRESH_TOKEN",
+                            'access_token': "ACCESS_TOKEN"}
 
     cred = Credentials.new_from_json(json.dumps(json_credential_dict))
 
